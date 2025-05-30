@@ -1,0 +1,87 @@
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f6f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .main-container {
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+            gap: 40px;
+        }
+
+        .buttons-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        .button {
+            background-color: #3498db;
+            border: 2px solid #2980b9;
+            color: white;
+            padding: 15px 0;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s ease;
+            width: 300px;
+            height: 60px;
+            gap: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            
+        }
+
+        .button:hover {
+            background-color: #2980b9;
+        }
+.buttons-container form {
+    margin-bottom: 20px;
+}
+
+        .graph-container {
+            flex-grow: 1;
+            margin-right: 100px;
+        }
+
+        .graph-container h2 {
+            text-align: left;
+            margin-bottom: 15px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .download-link {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #1abc9c;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .download-link:hover {
+            color: #16a085;
+        }

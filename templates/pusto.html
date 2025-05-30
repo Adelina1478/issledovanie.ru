@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Дистанционная лаборатория</title>
+    
+</head>
+<style>
+
+body {
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            min-height: 100vh;
+	    justify-content: center;
+        }
+ 
+
+        .main-container {
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            gap: 40px;
+        }
+
+        .buttons-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        .button {
+            background-color: #3498db;
+            border: 2px solid #2980b9;
+            color: white;
+            padding: 15px 0;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s ease;
+            width: 300px;
+            height: 60px;
+            gap: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            
+        }
+
+        .button:hover {
+            background-color: #2980b9;
+        }
+.buttons-container form {
+    margin-bottom: 20px;
+}
+
+        .dobro {
+            font-family: Georgia;
+            font-size:35pt;
+	    margin-left: auto;
+            margin-right: auto;
+        }
+</style>
+<body>
+    
+ 
+
+    <div class="main-container">
+   
+
+    <div class= "buttons-container">
+   
+
+    <form action="/run">
+        <button class="button" type="submit">Исследовать дифференцирующую CR-цепь</button>
+    </form>
+
+    <form action="/runrc">
+        <button class="button" type="submit">Исследовать интегрирующую RC-цепь</button>
+    </form>
+
+
+    <form action="/clear">
+        <button class="button"type="submit">Очистить данные</button>
+    </form>
+
+</div>
+
+      <h2 class = "dobro">Добро пожаловать в дистанционную лабораторию!</h2>
+
+</div>
+</div>
+</body>
+</html>
+
+

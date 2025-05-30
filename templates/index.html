@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Дистанционная лаборатория</title>
+    <link rel="stylesheet" href="/file/style.css?ts={{ timestamp }}">
+</head>
+
+<body>
+    <h1>Дистанционная лаборатория</h1>
+
+    <div class="main-container">
+    <div class= "buttons-container">
+    <form action="/run">
+        <button class="button" type="submit">Исследовать дифференцирующую CR-цепь</button>
+    </form>
+
+    <form action="/runrc">
+        <button class="button" type="submit">Исследовать интегрируюую RC-цепь</button>
+    </form>
+
+
+    <form action="/clear">
+        <button class="button"type="submit">Очистить данные</button>
+    </form>
+
+</div>
+
+   
+    <div class = "graph-container">
+    <h2>Переходная характеристика</h2>
+    <img src="/file/graph.jpg?ts={{timestamp}}" alt="Перехоная характеристика" style="max-width:600px;"><br>
+
+    <h2>Амплитудно-частотная характристика</h2>
+    <img src="/file/amplitude.jpg?ts={{timestamp}}" alt="АЧХ" width="600">
+    <br>
+   
+
+   <h2>Фазо-частотная характеристика</h2>
+    <img src="/file/phase.jpg?ts={{timestamp}}" alt="ФЧХ" width="600">
+    <br>
+   
+</div>
+</div>
+</body>
+</html>
+
+
